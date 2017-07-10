@@ -1,10 +1,10 @@
 {
-  "name": "prettier-vscode",
-  "displayName": "Prettier - JavaScript formatter",
-  "description": "VS Code plugin for prettier/prettier",
-  "version": "0.21.0",
-  "publisher": "esbenp",
-  "author": "Esben Petersen <@esbenp>",
+  "name": "prettier-vscode-tomorrow",
+  "displayName": "Prettier - Tomorrow",
+  "description": "VS Code plugin with test features for prettier/prettier. Testing purpose.",
+  "version": "0.22.0-alpha",
+  "publisher": "cigit",
+  "author": "Cyril Junod",
   "galleryBanner": {
     "color": "#ffe04b",
     "theme": "light"
@@ -219,7 +219,7 @@
     "vscode": "^1.1.0"
   },
   "dependencies": {
-    "prettier": "1.5.2",
+    "prettier": "github:prettier/prettier",
     "prettier-eslint": "^6.4.2",
     "read-pkg-up": "2.0.0",
     "semver": "^5.3.0"
